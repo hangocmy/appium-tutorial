@@ -1,38 +1,28 @@
 package appiumtests;
-
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
-/**
- * Unit test for simple App.
- */
-public class CalculatorTest
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public CalculatorTest(String testName )
-    {
-        super( testName );
+public class CalculatorTest{
+    public static void main(String[] args) {
+
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( CalculatorTest.class );
-    }
+    public static void openCalculator(){
+        DesiredCapabilities cap = new DesiredCapabilities();
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+        //about phone
+        cap.setCapability("deviceName", "sdk_gphone64_x86_64");
+        cap.setCapability("udid", "emulator-5554");
+        cap.setCapability("platformName", "Android");
+        cap.setCapability("platformVersion", "12");
+
+        //about app
+        cap.setCapability("appPackage", "com.vttm.vietteldiscovery");
+        cap.setCapability("appActivity", "");
+
+
+
     }
 }
