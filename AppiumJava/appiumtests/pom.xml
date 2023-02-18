@@ -41,5 +41,15 @@
             <version>4.8.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.phoenixframe</groupId>
+            <artifactId>phoenix_mobiledriver</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.mobileid.mid-java-client</groupId>
+            <artifactId>mid-java-client-parent</artifactId>
+            <version>1.5.2</version>
+        </dependency>
     </dependencies>
 </project>

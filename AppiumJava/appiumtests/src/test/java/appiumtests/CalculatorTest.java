@@ -1,10 +1,15 @@
 package appiumtests;
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import io.appium.java_client.AppiumDriver;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import java.net.URL;
+
 public class CalculatorTest{
+
+    static WebDriver<WebElement> driver;
+
     public static void main(String[] args) {
 
     }
@@ -19,9 +24,11 @@ public class CalculatorTest{
         cap.setCapability("platformVersion", "12");
 
         //about app
-        cap.setCapability("appPackage", "com.vttm.vietteldiscovery");
-        cap.setCapability("appActivity", "");
+        cap.setCapability("appPackage", "com.google.android.calculator");
+        cap.setCapability("appActivity", "com.android.calculator2.Calculator");
 
+        URL url = new URL("http://0.0.0.0:4723/");
+        driver = new WebDriver(cap);
 
 
     }
