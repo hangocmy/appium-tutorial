@@ -1,8 +1,0 @@
-{
-  "appium:deviceName": "sdk_gphone64_x86_64",
-  "platformName": "Android",
-  "appium:platformVersion": "12",
-  "appium:appPackage": "com.google.android.calculator",
-  "appium:appActivity": "com.android.calculator2.Calculator",
-  "appium:app": "E:\\GIT\\appium-tutorial\\Calculator.apk"
-}
