@@ -3,6 +3,7 @@
   "uid": "emulator-5554",
   "platformName": "Android",
   "platformVersion": "12",
+  "appium:automationName": "uiautomator2",
   "appPackage": "com.google.android.calculator",
   "appActivity": "com.android.calculator2.Calculator",
   "app": "D:\\GIT\\appium-tutorial\\Calculator.apk"
