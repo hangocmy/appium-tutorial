@@ -1,0 +1,11 @@
+{
+    "appium:deviceName": "OPPO",
+    "appium:uid": "OV6PEQ5PSGGEOBWW",
+    "platformName": "Android",
+    "appium:platformVersion": "10",
+    "appium:ignoreHiddenApiPolicyError": "true",
+    "appium:noRetest": "true",
+    "appium:automationName": "UiAutomator2",
+    "appPackage": "com.idbeauty",
+    "appActivity": "com.idbeauty.MainActivity"
+  }
