@@ -1,4 +1,5 @@
 import pytest
+import allure
 
 
 def setup_module(module):
