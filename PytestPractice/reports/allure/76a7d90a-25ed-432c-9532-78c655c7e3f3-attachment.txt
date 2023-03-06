@@ -1,0 +1,3 @@
+Lauching browser
+Executing User Reg test
+Closing DB Connection

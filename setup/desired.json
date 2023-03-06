@@ -1,0 +1,11 @@
+{
+    "appium:deviceName": "sdk_gphone64_x86_64",
+    "appium:uid": "emulator-5554",
+    "platformName": "Android",
+    "appium:platformVersion": "12",
+    "appium:ignoreHiddenApiPolicyError": "true",
+    "appium:noRetest": "true",
+    "appium:automationName": "UiAutomator2",
+    "appPackage": "com.goibibo",
+    "appActivity": "com.goibibo.common.HomeActivity"
+}
