@@ -34,6 +34,7 @@ def pytest_runtest_makereport(item, call):
 #     driver.quit()
 #     appium_service.stop()
 
+
 @pytest.fixture(scope="function")
 def appium_driver():
     desired_caps = {}
